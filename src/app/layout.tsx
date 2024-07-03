@@ -1,16 +1,18 @@
 import type { Metadata } from "next";
 import '../ui/globals.css';
+import Navbar from "@/ui/Navbar";
+import Footer from "@/ui/Footer";
 
 export const metadata: Metadata = {
   title: {
     template: '%s | Daffa Fathoni',
     default: 'Daffa Fathoni',
   },
-  description: "Daffa Mohamad Fathoni's Web Portfolio.",
+  description: "Welcome to Daffa's Web!",
   openGraph: {
     title: 'Daffa Fathoni',
-    description: "Daffa Mohamad Fathoni's Web Portfolio.",
-    url: 'https://yourdomain.com',
+    description: "Welcome to Daffa's Web!",
+    url: 'https://daffafathoni.com',
     type: 'website',
     images: [
       {
@@ -24,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Daffa Fathoni',
-    description: "Daffa Mohamad Fathoni's Web Portfolio.",
+    description: "Welcome to Daffa's Web!",
     images: ['/opengraph-image.jpg'],
   },
 };
@@ -40,7 +42,15 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         {/* You can include additional head elements here if needed */}
       </head>
-      <body>{children}</body>
+      <body>
+        <div className="flex flex-col min-h-screen mx-auto sm:px-10 px-5">
+          <Navbar />
+          <div className="flex flex-col items-center justify-center flex-grow">
+            {children}
+          </div>
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }

@@ -41,3 +41,17 @@ body {
 ::-webkit-scrollbar-thumb:hover{
 	background-color: #909090;
 }
+
+#cursor {
+  color: black;
+  animation: blink 0.5s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0%;
+  }
+}

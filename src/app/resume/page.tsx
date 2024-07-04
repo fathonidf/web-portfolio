@@ -7,11 +7,11 @@ export const metadata: Metadata = {
 
 export default function Resume() {
     return (
-        <div className="flex justify-center items-center w-full h-screen">
+        <div className="flex justify-center items-center w-full">
             <iframe
                 src="/resume.pdf"
-                className="w-full h-full rounded-lg"
-                style={{ border: 'none' }}
+                className="w-full rounded-lg"
+                style={{ border: 'none', height: '590px', width:'700px' }}
                 title="Resume PDF"
             ></iframe>
         </div>

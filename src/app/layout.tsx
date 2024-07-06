@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import '../ui/globals.css';
-import Navbar from "@/ui/Navbar";
-import Footer from "@/ui/Footer";
+import Navbar from "@/ui/navbar/Navbar";
+import Footer from "@/ui/footer/Footer";
 
 export const metadata: Metadata = {
   title: {

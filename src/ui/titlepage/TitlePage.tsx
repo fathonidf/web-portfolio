@@ -1,10 +1,10 @@
 import React from 'react';
-import Blob from "@/ui/Blob";
-import Typewriter from '@/ui/Typewriter';
+import Blob from "@/ui/decoration/Blob";
+import Typewriter from '@/ui/titlepage/Typewriter';
 
 export default function TitlePage() {
     return (
-        <div className="flex items-center justify-center w-full max-w-2xl text-center relative">
+        <div className="flex flex-col items-center justify-center w-full max-w-2xl text-center relative">
             <Blob />
             <div className="relative z-10 m-8 space-y-4 bg-white/30 backdrop-blur-lg rounded-lg">
                 <div className="p-5">

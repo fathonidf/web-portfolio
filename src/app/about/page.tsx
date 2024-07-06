@@ -6,6 +6,6 @@ export const metadata: Metadata = {
 
 export default function About(){
     return(
-        <p>Hi I'm Daffa</p>
+        <p>Hi I&apos;m Daffa</p>
     );
 }

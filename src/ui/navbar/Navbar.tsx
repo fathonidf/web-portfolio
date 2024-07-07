@@ -3,31 +3,9 @@
 import React, { useState, useEffect } from 'react';
 import NavbarDesktop from './NavbarDesktop';
 import NavbarMobile from './NavbarMobile';
-
-interface NavLink {
-  display: string;
-  href: string;
-}
+import navLinks from '@/data/navigation-links';
 
 const Navbar: React.FC = () => {
-  const navLinks: NavLink[] = [
-    {
-      display: "Home",
-      href: "/"
-    },
-    {
-      display: "Projects",
-      href: "/projects"
-    },
-    {
-      display: "Contents",
-      href: "/contents"
-    },
-    {
-      display: "About",
-      href: "/about"
-    }
-  ];
 
   const [isDesktop, setIsDesktop] = useState<boolean>(false);
 

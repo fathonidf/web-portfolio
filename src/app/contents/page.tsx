@@ -6,6 +6,6 @@ export const metadata: Metadata = {
 
 export default function Projects(){
     return(
-        <p>Contents page</p>
+        <p>Contents page under construction!</p>
     );
 }

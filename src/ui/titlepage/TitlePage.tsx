@@ -5,7 +5,7 @@ import Typewriter from '@/ui/titlepage/Typewriter';
 export default function TitlePage() {
     return (
         <div className="flex flex-col items-center justify-center w-full max-w-2xl text-center relative">
-            <Blob />
+            <Blob firstColor="bg-blue-500" secondColor="bg-rose-500" combinationColor="bg-purple-500"/>
             <div className="relative z-10 m-8 space-y-4 bg-white/30 backdrop-blur-lg rounded-lg">
                 <div className="p-5">
                     <h1 className="text-5xl font-bold">Daffa Mohamad Fathoni</h1>

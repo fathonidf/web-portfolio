@@ -10,8 +10,8 @@ const experiences: Experience[] = [
         position: "Staff of Teaching Assistant",
         organization: "Teaching Assistant for Faculty of Computer Science",
         descriptions: [
-            "As a Teaching Assistant for Discrete Mathematics 1, I conducted tutorial sessions to help students prepare for exams, assisted in designing and grading homework, and provided one-on-one support and mentoring for students.",
-            "As a Teaching Assistant for Programming Foundations 2, I facilitated lab sessions by guiding students through practical programming exercises, developed supplementary instructional materials to enhance student understanding, and evaluated student projects, providing detailed feedback to foster improvement."
+            "Conducted tutorial sessions to assist students in preparing for exams, aided in the design and grading of homework, and provided one-on-one support and mentoring for students in Discrete Mathematics 1 (CSGE601010).",
+            "Facilitated lab sessions by guiding students through practical programming exercises, developed supplementary instructional materials to enhance understanding, and evaluated student projects with detailed feedback to foster improvement in Programming Foundations 2 (CSGE601021)."
         ],
         date: "Aug 2023 - Now"
     },

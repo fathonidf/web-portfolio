@@ -7,13 +7,21 @@ interface Experience {
 
 const experiences: Experience[] = [
     {
+        position: "Web Developer Intern",
+        organization: "Established Jakarta",
+        descriptions: [
+            "Developing website and contents using CMS (Content Management System) with Next.js and Laravel"
+        ],
+        date: "Jul 2024 - Sep 2024"
+    },
+    {
         position: "Staff of Teaching Assistant",
         organization: "Teaching Assistant for Faculty of Computer Science",
         descriptions: [
             "Conducted tutorial sessions to assist students in preparing for exams, aided in the design and grading of homework, and provided one-on-one support and mentoring for students in Discrete Mathematics 1 (CSGE601010).",
             "Facilitated lab sessions by guiding students through practical programming exercises, developed supplementary instructional materials to enhance understanding, and evaluated student projects with detailed feedback to foster improvement in Programming Foundations 2 (CSGE601021)."
         ],
-        date: "Aug 2023 - Now"
+        date: "Aug 2023 - Jun 2023"
     },
     {
         position: "Staff of Strategic Marketing",

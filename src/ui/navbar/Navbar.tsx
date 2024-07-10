@@ -5,9 +5,12 @@ import NavbarDesktop from './NavbarDesktop';
 import NavbarMobile from './NavbarMobile';
 import navLinks from '@/data/navigation-links';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation'
 import logo from '../../../public/favicon.ico';
 
 const Navbar: React.FC = () => {
+
+  const router = useRouter()
 
   const [isDesktop, setIsDesktop] = useState<boolean>(false);
 
@@ -23,7 +26,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="top-0 flex justify-between items-center z-20 h-24 px-6 md:px-10">
-      <a href="/">
+      <a onClick={() => router.replace("/")}>
         <Image src={logo} alt="Logo" className="h-10 w-10 object-contain" />
       </a>
       {isDesktop ? <NavbarDesktop navLinks={navLinks} /> : <NavbarMobile navLinks={navLinks} />}

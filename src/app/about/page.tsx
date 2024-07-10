@@ -10,15 +10,11 @@ export const metadata: Metadata = {
     title: 'About',
 };
 
-export default function About() {
+export default function AboutPage() {
     return (
         <div className="flex flex-col items-center justify-center space-y-7 relative">
-            <div
-                className="absolute top-0 left-20 w-40 h-52 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob z-0"
-            ></div>
-            <div
-                className="absolute top-0 left-2 w-36 h-48 bg-red-400 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob z-0"
-            ></div>
+            <div className="absolute top-0 left-20 w-40 h-52 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob z-0"></div>
+            <div className="absolute top-0 left-2 w-36 h-48 bg-red-400 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob z-0"></div>
             <div className="z-10 flex flex-col lg:flex-row items-center space-y-3 lg:space-x-5">
                 <Image
                     src={profilePic}
@@ -41,7 +37,7 @@ export default function About() {
                     aimed at empowering fellow computer science students.
                 </p>
             </div>
-            
+
             <div className="relative inline-flex group">
                 <div
                     className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-blue-500 to-red-500 rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
@@ -59,11 +55,17 @@ export default function About() {
 
             <div className="flex flex-col lg:flex-row w-full">
                 <div className="w-full lg:w-1/2 lg:pr-4">
-                    <Educations />
-                    <Awards />
+                    <section id="educations">
+                        <Educations />
+                    </section>
+                    <section id="awards">
+                        <Awards />
+                    </section>
                 </div>
                 <div className="w-full lg:w-1/2 lg:pl-4">
-                    <Experiences />
+                    <section id="experiences">
+                        <Experiences />
+                    </section>
                 </div>
             </div>
         </div>

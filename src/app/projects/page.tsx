@@ -12,7 +12,7 @@ export default function ProjectsPage() {
             <div className="absolute top-0 right-5 lg:right-20 w-36 h-48 bg-red-400 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob z-0"></div>
 
             <div className="z-10 flex flex-col items-center w-full space-y-4 p-8 m-8 border-solid bg-white/30 rounded-xl shadow-lg">
-                <p className="text-black font-bold text-3xl lg:text-5xl">My Projects</p>
+                <p className="text-black font-bold text-3xl lg:text-5xl">Previous Projects</p>
                 <p className="text-black text-lg lg:text-xl text-center">Some previous projects I developed with my friends for college assignments.</p>
             </div>
 

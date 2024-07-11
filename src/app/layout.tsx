@@ -4,6 +4,7 @@ import Navbar from "@/ui/navbar/Navbar";
 import Footer from "@/ui/footer/Footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://daffafathoni.com'),
   title: {
     template: '%s | Daffa Fathoni',
     default: 'Daffa Fathoni',
@@ -45,7 +46,7 @@ export default function RootLayout({
       <body>
         <div className="flex flex-col min-h-screen mx-auto sm:px-10 px-5">
           <Navbar />
-          <div className="flex flex-col items-center justify-center flex-grow max-w-5xl mx-auto px-4">
+          <div className="flex flex-col items-center justify-center flex-grow max-w-5xl mx-auto">
             {children}
           </div>
           <Footer />

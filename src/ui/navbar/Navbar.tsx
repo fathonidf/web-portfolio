@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <nav className="top-0 flex justify-between items-center z-20 h-24 px-6 md:px-10">
+    <nav className="top-0 flex justify-center items-center z-20 h-24 px-6 md:px-10">
       <a onClick={() => router.replace("/")}>
         <Image src={logo} alt="Logo" className="h-10 w-10 object-contain" />
       </a>

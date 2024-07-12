@@ -5,7 +5,6 @@ interface Project {
     date: string;
     image: string;
     color: string;
-    tools?: string[];
     githubHref?: string;
     demoHref?: string;
 }

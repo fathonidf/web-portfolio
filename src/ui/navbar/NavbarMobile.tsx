@@ -43,7 +43,7 @@ const NavbarMobile: React.FC<NavbarMobileProps> = ({ navLinks }) => {
             animate="visible"
             exit="exit"
             variants={drawerVariants}
-            transition={{ ease: "easeOut", duration: 0.8 }} // Mengatur easing dan durasi animasi
+            transition={{ ease: "easeOut", duration: 0.6 }} // Mengatur easing dan durasi animasi
           >
             <motion.div 
               className="fixed top-0 left-0 w-full h-auto bg-white z-40 shadow-lg rounded-lg border" 
@@ -52,7 +52,7 @@ const NavbarMobile: React.FC<NavbarMobileProps> = ({ navLinks }) => {
               animate="visible"
               exit="exit"
               variants={drawerVariants}
-              transition={{ ease: "easeOut", duration: 0.8 }} // Mengatur easing dan durasi animasi
+              transition={{ ease: "easeOut", duration: 0.6 }} // Mengatur easing dan durasi animasi
             >
               <ul className="flex flex-col items-start gap-2 text-lg py-5 px-6">
                 <LayoutGroup>

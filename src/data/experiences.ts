@@ -7,14 +7,6 @@ interface Experience {
 
 const experiences: Experience[] = [
     {
-        position: "Web Developer Intern",
-        organization: "Established Jakarta",
-        descriptions: [
-            "Developing website and contents using CMS (Content Management System) with Next.js and Laravel"
-        ],
-        date: "Jul 2024 - Sep 2024"
-    },
-    {
         position: "Staff of Teaching Assistant",
         organization: "Teaching Assistant for Faculty of Computer Science",
         descriptions: [

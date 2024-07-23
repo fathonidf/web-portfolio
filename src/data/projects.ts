@@ -16,7 +16,8 @@ const projects: Project[] = [
         description: "A web application that supports Indonesia’s reading movement by enabling users to easily find, manage, share book information, and discover relevant events and activities.",
         date: "Sep 2023 – Nov 2023",
         image: "/projects-image/booksbuddy.png",
-        color: "yellow-600"
+        color: "yellow-600",
+        demoHref: "http://books-buddy.org/"
     },
     {
         id: "kelilink",
@@ -24,7 +25,8 @@ const projects: Project[] = [
         description: "A mobile application design that integrates with various public transportation services such as KRL, Transjakarta, MRT, LRT, and the ride-hailing app Grab. Simplifies navigation and improves convenience by consolidating multiple transportation options into one platform.",
         date: "Feb 2024 – May 2024",
         image: "/projects-image/kelilink.png",
-        color: "green-500"
+        color: "green-500",
+        demoHref: "https://www.ristek.link/Prototype-KeliLINK"
     },
     {
         id: "marmut",
@@ -32,7 +34,8 @@ const projects: Project[] = [
         description: "A versatile web application for streaming music and podcasts, allowing users to create playlists, download tracks for offline listening as premium subscribers, while also enabling artists, songwriters, and podcasters to efficiently manage their works with comprehensive details.",
         date: "Apr 2024 – May 2024",
         image: "/projects-image/marmut.png",
-        color: "orange-500"
+        color: "orange-500",
+        demoHref: "https://marmut-app-c15.up.railway.app/"
     },
     {
         id: "gametime",
@@ -40,7 +43,8 @@ const projects: Project[] = [
         description: "A store that assists users in finding toys and items for their favorite games easily, while also providing a niche marketplace for sellers of game-specific toys and items.",
         date: "Apr 2024 – May 2024",
         image: "/projects-image/gametime.png",
-        color: "blue-500"
+        color: "blue-500",
+        demoHref: "https://gametime-frontend.vercel.app/"
     },
 ];
 

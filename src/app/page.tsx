@@ -4,6 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import TitlePage from '@/ui/titlepage/TitlePage';
 import AboutButton from '@/ui/decoration/AboutButton';
+import { notFound } from 'next/navigation';
 
 const containerVariants = {
     hidden: { opacity: 0 },

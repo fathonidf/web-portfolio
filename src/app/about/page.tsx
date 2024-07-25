@@ -23,6 +23,7 @@ export default function AboutPage() {
                     className="rounded-full"
                     alt="Photo profile of Daffa Mohamad Fathoni"
                     priority
+                    quality={100}
                 />
                 <p className="text-black font-bold text-2xl lg:text-5xl">Daffa Mohamad Fathoni</p>
             </div>

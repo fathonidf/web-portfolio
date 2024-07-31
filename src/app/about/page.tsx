@@ -29,7 +29,7 @@ export default function AboutPage() {
             </div>
 
             <div className="z-10 border-solid bg-white/30 rounded-lg shadow-lg p-5">
-                <p className="text-justify text-black font-bold ">
+                <p className="text-justify text-black font-bold">
                     A Computer Science student at <a href="https://www.ui.ac.id/" className="text-yellow-500 hover:underline">Universitas Indonesia</a>,
                     I thrive on crafting sleek web applications using cutting-edge frameworks while supporting my peers as a teaching assistant
                     for courses in Discrete Mathematics and Programming Foundations. Beyond coding, my fingers dance on the keys of a classical piano,

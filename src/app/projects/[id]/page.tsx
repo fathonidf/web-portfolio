@@ -81,7 +81,7 @@ export default async function Page({ params }: { params: { id: string } }) {
       <div className={`absolute top-30 right-1 lg:right-1 w-20 h-80 ${getBgColor(selectedProject.color)} rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob z-0`}></div>
       <div className="z-10 bg-white/30 rounded-2xl p-5">
         <p className={`${getTextColor(selectedProject.color)} font-bold text-3xl lg:text-5xl pb-5`}>{selectedProject.title}</p>
-        <div className="flex flex-row space-x-5">
+        <div className="flex flex-col space-y-2 lg:flex-row lg:space-x-5">
           <Image
             className="rounded-2xl"
             src={selectedProject.image}

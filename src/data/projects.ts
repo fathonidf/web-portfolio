@@ -34,7 +34,7 @@ const projects: Project[] = [
         image: "/projects-image/kelilink.png",
         color: "green",
         demoHref: "https://www.ristek.link/Prototype-KeliLINK",
-        team: "Afsar Rakha Farassandi, Daffa Mohamad Fathoni, Najmi Briliant, Galen Taris Bariqi, Shafira Ramadhina, Anindya Maulidya",
+        team: "Afsar Rakha Farrasandi, Daffa Mohamad Fathoni, Najmi Briliant, Galen Taris Bariqi, Shafira Ramadhina, Anindya Maulidya",
         techStack: ["figma"],
         background: "Bustling cities like Jakarta face numerous challenges in public and online transportation, including congestion, accidents, and inadequate facilities. Residents often struggle to find efficient and economical routes. Additionally, issues like limited payment options and lack of transparency in addressing complaints and suggestions exacerbate the situation. These problems highlight the need for improved solutions to meet the public transportation and information needs of residents.",
         detail: "KeliLINK is an integrated application for various public transportation services in Jakarta providing an efficient travel experience. Users can easily input their start and destination locations to receive information on the best routes and suitable transportation modes with estimated arrival times. Key features include multimodal search, departure schedule integration, payment options, multilingual support, and interactive maps and navigation. Users can choose the fastest route, view departure schedules and real-time transport positions, select payment methods like bank transfers, credit cards, and e-wallets, and use interactive maps to find nearby stops and navigate their journey with step-by-step guidance and QR code payment."

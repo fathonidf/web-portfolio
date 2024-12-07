@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import '../ui/globals.css';
 import Navbar from "@/ui/navbar/Navbar";
 import Footer from "@/ui/footer/Footer";
+import { ViewTransitions } from 'next-view-transitions';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://daffafathoni.com'),
@@ -38,6 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
+    <ViewTransitions>
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" />
@@ -53,5 +55,6 @@ export default function RootLayout({
         </div>
       </body>
     </html>
+    </ViewTransitions>
   );
 }

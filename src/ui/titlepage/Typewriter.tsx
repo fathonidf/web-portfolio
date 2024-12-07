@@ -6,9 +6,10 @@ function sleep(ms: number) {
 
 const phrases = [
   "Software Engineering",
-  "Website Development",
+  "Data Science & Analytics",
   "Frontend Development",
   "Backend Development",
+  "Machine Learning",
   "Development & Operations",
   "Classical Piano",
 ];

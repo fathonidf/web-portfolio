@@ -7,6 +7,15 @@ interface Experience {
 
 const experiences: Experience[] = [
     {
+        position: "Jago Digital Academy PX Intern",
+        organization: "PT Bank Jago Tbk",
+        descriptions: [
+            "Developing backend systems using Node.js for PX (People Xperience), an HR Management application by DKatalis",
+            "Designing and implementing APIs for goals management and notification features."
+        ],
+        date: "Aug 2024 - Oct 2024"
+    },
+    {
         position: "Staff of Teaching Assistant",
         organization: "Teaching Assistant for Faculty of Computer Science",
         descriptions: [

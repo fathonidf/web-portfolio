@@ -42,7 +42,7 @@ export default function AboutPage() {
                 <div
                     className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-blue-500 to-red-500 rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
                 </div>
-                <a href="https://drive.google.com/file/d/1xxe2law9-O5U0EdRaHlMAMvv2u5XSZZv/view?usp=sharing" target="_blank"
+                <a href="https://drive.google.com/file/d/1hmyL94TM4WKjfl0iL0UQ-_cOsv8OjtxP/view?usp=sharing" target="_blank"
                     className="relative inline-flex items-center justify-center px-4 py-2 font-bold transition-all duration-200 bg-white font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                     role="button">
                     Download my resume!

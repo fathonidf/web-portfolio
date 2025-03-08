@@ -2,7 +2,7 @@ export default function Footer() {
     return (
         <footer className="relative py-4 flex flex-col sm:flex-row justify-between items-center">
             <div className="mx-4 text-black font-bold sm: text-sm py-4">
-                <p>Copyright © 2024 Daffa Fathoni</p>
+                <p>Copyright © 2025 Daffa Fathoni</p>
             </div>
             <div className="mx-4 flex space-x-6">
                 <a href="https://github.com/fathonidf/" target="_blank" rel="noopener noreferrer">

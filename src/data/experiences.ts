@@ -7,6 +7,16 @@ interface Experience {
 
 const experiences: Experience[] = [
     {
+        position: "Staff of Teaching Assistant",
+        organization: "Teaching Assistant for Faculty of Computer Science",
+        descriptions: [
+            "Conducted tutorial sessions to assist students in preparing for exams, aided in the design and grading of homework, and provided one-on-one support and mentoring for students in Discrete Mathematics 1 (CSGE601010).",
+            "Facilitated lab sessions by guiding students through practical programming exercises, developed supplementary instructional materials to enhance understanding, and evaluated student projects with detailed feedback to foster improvement in Programming Foundations 2 (CSGE601021).",
+            "Developed instructional materials, designed homework assignments, and provided personalized support and mentoring, including guidance on Jupyter Notebook, Pandas, and NumPy, to enhance student learning and academic success in Introduction to Artificial Intelligence and Data Science (CSGE603130)"
+        ],
+        date: "Aug 2023 - Now"
+    },
+    {
         position: "Jago Digital Academy PX Intern",
         organization: "PT Bank Jago Tbk",
         descriptions: [
@@ -14,15 +24,6 @@ const experiences: Experience[] = [
             "Designing and implementing APIs for goals management and notification features."
         ],
         date: "Aug 2024 - Oct 2024"
-    },
-    {
-        position: "Staff of Teaching Assistant",
-        organization: "Teaching Assistant for Faculty of Computer Science",
-        descriptions: [
-            "Conducted tutorial sessions to assist students in preparing for exams, aided in the design and grading of homework, and provided one-on-one support and mentoring for students in Discrete Mathematics 1 (CSGE601010).",
-            "Facilitated lab sessions by guiding students through practical programming exercises, developed supplementary instructional materials to enhance understanding, and evaluated student projects with detailed feedback to foster improvement in Programming Foundations 2 (CSGE601021)."
-        ],
-        date: "Aug 2023 - Jun 2023"
     },
     {
         position: "Staff of Strategic Marketing",

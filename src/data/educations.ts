@@ -7,7 +7,7 @@ interface Education {
 
 const educations: Education[] = [
     {
-        major: "Computer Science Major, Faculty of Computer Science (GPA: 3.91)",
+        major: "Computer Science Major, Faculty of Computer Science (GPA: 3.87)",
         institute: "Universitas Indonesia",
         location: "Depok",
         date: "Apr 2022 - Now"
